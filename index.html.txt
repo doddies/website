@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doddies - Handcrafted Beaded Bags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #f06, #f90);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 15px 0 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Doddies</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Launching Soon</h1>
+        <p>Explore our collection of handcrafted beaded bags.</p>
+    </section>
+
+    <section class="products" id="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Beaded Bag">
+            <h3>Elegant Beaded Bag</h3>
+            <p>$49.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Beaded Bag">
+            <h3>Colorful Beaded Bag</h3>
+            <p>$39.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Beaded Bag">
+            <h3>Classic Beaded Bag</h3>
+            <p>$59.99</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Doddies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
